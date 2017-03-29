@@ -25,8 +25,12 @@ public class Dog extends Animal
 	}
 
 	public void bark() {
-		System.out.println(this+" says: Bark!");
+		System.out.println(this+" says: Bark Bark!");
 	}
+   
+   public void speak() {
+      bark();
+   }
 
 	public void wagTail(int times){
 		for(int i=0; i<times; i++){
